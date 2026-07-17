@@ -1,0 +1,3726 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &623162945037314411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506108449680990961}
+  m_Layer: 0
+  m_Name: Forest2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506108449680990961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623162945037314411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 180, y: 0, z: 140}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2604821194275181692}
+  - {fileID: 658686310737304481}
+  - {fileID: 2604556920077079022}
+  - {fileID: 796188407111517226}
+  - {fileID: 4751782944707983106}
+  - {fileID: 7780392468248166689}
+  - {fileID: 1152455692243832984}
+  - {fileID: 4379676425869060011}
+  - {fileID: 5067779425310687761}
+  - {fileID: 8973914915666889870}
+  - {fileID: 911202176148937176}
+  - {fileID: 1825725301106534718}
+  - {fileID: 6381584018772149584}
+  - {fileID: 3817230510940481358}
+  - {fileID: 8199875111447807054}
+  - {fileID: 7807540023748588801}
+  - {fileID: 4231237206809605477}
+  - {fileID: 8328037627672954509}
+  - {fileID: 4697274347680260901}
+  - {fileID: 2334563453060222306}
+  - {fileID: 3217014280688807313}
+  - {fileID: 1002115847538691413}
+  - {fileID: 5330091006949333782}
+  - {fileID: 3261308715931759613}
+  - {fileID: 8090334050627335259}
+  - {fileID: 6876593792848933647}
+  - {fileID: 3058206474571941110}
+  - {fileID: 5577287421886362414}
+  - {fileID: 7702601791625610880}
+  - {fileID: 987079662512458808}
+  - {fileID: 7686986083705726228}
+  - {fileID: 4320187063325641454}
+  - {fileID: 3397932014561177029}
+  - {fileID: 1345389585100285480}
+  - {fileID: 58864822439956606}
+  - {fileID: 3704346985147990349}
+  - {fileID: 6295480272660737628}
+  - {fileID: 1021551024929537733}
+  - {fileID: 1147557245618872905}
+  - {fileID: 4971797316202330439}
+  - {fileID: 6337004504132708610}
+  - {fileID: 3917199397038855503}
+  - {fileID: 3876714919730794358}
+  - {fileID: 6128125162791081671}
+  - {fileID: 6381379858991347753}
+  - {fileID: 8524106272784857796}
+  - {fileID: 3500558189611240625}
+  - {fileID: 4940869772320337335}
+  - {fileID: 6901283742914112744}
+  - {fileID: 2971806403109653362}
+  - {fileID: 5440124528550192734}
+  - {fileID: 5490964515591249239}
+  - {fileID: 4683701513317611707}
+  - {fileID: 6142640726903544637}
+  - {fileID: 1397417567454788530}
+  - {fileID: 163688122470453030}
+  - {fileID: 6838352265501954744}
+  - {fileID: 3214742599496504204}
+  - {fileID: 8389318042323921138}
+  - {fileID: 6366727915475980704}
+  - {fileID: 1565094600791033048}
+  - {fileID: 5304782201527782038}
+  - {fileID: 4260512005412245114}
+  - {fileID: 4087878575380825094}
+  - {fileID: 6491810700962520531}
+  - {fileID: 1968543616359923647}
+  - {fileID: 2833417949678292090}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &58864822439824126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 506
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &58864822439956606 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 58864822439824126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &163688122470323622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 698
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &163688122470453030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 163688122470323622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &658686310737690913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 182
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -45.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.8426666
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &658686310737304481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 658686310737690913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &796188407111655082
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -37.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3300018
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &796188407111517226 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 796188407111655082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &911202176149062488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 266
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &911202176148937176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 911202176149062488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &987079662512854712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 480
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &987079662512458808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 987079662512854712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1002115847538563029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 372
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -39.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.58999634
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &1002115847538691413 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 1002115847538563029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1021551024929399877
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 530
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.014801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &1021551024929537733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 1021551024929399877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1147557245619271881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 535
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2100067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &1147557245618872905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 1147557245619271881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1152455692243962392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 245
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.014801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &1152455692243832984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 1152455692243962392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1345389585100684456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 501
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &1345389585100285480 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 1345389585100684456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1397417567455174962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 688
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &1397417567454788530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 1397417567455174962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1565094600791432792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 765
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &1565094600791033048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 1565094600791432792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1825725301106406334
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 271
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &1825725301106534718 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 1825725301106406334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1968543616359523647
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 778
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &1968543616359923647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 1968543616359523647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2334563453060356066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 359
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &2334563453060222306 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 2334563453060356066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2604556920077208430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 198
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.44999695
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &2604556920077079022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 2604556920077208430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2604821194274787068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &2604821194275181692 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 2604821194274787068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2833417949678425850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 781
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2100067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &2833417949678292090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 2833417949678425850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2971806403109523954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 660
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &2971806403109653362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 2971806403109523954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3058206474572340854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 440
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &3058206474571941110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 3058206474572340854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3214742599496108300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 746
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &3214742599496504204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 3214742599496108300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3217014280689202961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 367
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &3217014280688807313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 3217014280689202961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3261308715931363709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 387
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &3261308715931759613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 3261308715931363709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3397932014561572677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 494
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &3397932014561177029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 3397932014561572677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3500558189611111985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 643
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &3500558189611240625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 3500558189611111985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3704346985148390349
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 513
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &3704346985147990349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 3704346985148390349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3817230510940618190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 274
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &3817230510940481358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 3817230510940618190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3876714919730927094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 582
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &3876714919730794358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 3876714919730927094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3917199397039247311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 565
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &3917199397038855503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 3917199397039247311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4087878575381225094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 772
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &4087878575380825094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 4087878575381225094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4231237206809472997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 317
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3300018
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &4231237206809605477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 4231237206809472997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4260512005412377850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 770
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.014801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &4260512005412245114 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 4260512005412377850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4320187063325773934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 484
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &4320187063325641454 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 4320187063325773934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4379676425869196587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 257
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.8426666
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &4379676425869060011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 4379676425869196587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4683701513317999163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 680
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &4683701513317611707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 4683701513317999163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4697274347680659877
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 353
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.58999634
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &4697274347680260901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 4697274347680659877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4751782944707849602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 204
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &4751782944707983106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 4751782944707849602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4940869772319946551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 645
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &4940869772320337335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 4940869772319946551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4971797316202456007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &4971797316202330439 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 4971797316202456007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5067779425310562449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 261
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &5067779425310687761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 5067779425310562449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5304782201528176662
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 766
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &5304782201527782038 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 5304782201528176662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5330091006949720470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 380
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &5330091006949333782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 5330091006949720470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5440124528549805278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_Name
+      value: Natures_Grass Tile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_RootOrder
+      value: 662
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+--- !u!4 &5440124528550192734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+  m_PrefabInstance: {fileID: 5440124528549805278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5490964515590850519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 671
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &5490964515591249239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 5490964515590850519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5577287421886491054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 446
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &5577287421886362414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 5577287421886491054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6128125162791210055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 605
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6128125162791081671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6128125162791210055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6142640726903144893
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 686
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6142640726903544637 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6142640726903144893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6295480272660608220
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 518
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &6295480272660737628 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 6295480272660608220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6337004504133104514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 555
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6337004504132708610 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6337004504133104514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6366727915476110112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 762
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0099945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &6366727915475980704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 6366727915476110112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6381379858991473321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.8426666
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &6381379858991347753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 6381379858991473321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6381584018772549584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 272
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &6381584018772149584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 6381584018772549584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6491810700962645843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 776
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6491810700962520531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6491810700962645843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6838352265502083128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6838352265501954744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6838352265502083128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6876593792849062287
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_small (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_RootOrder
+      value: 413
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.119995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 800befcc62026a34693972077c91698d, type: 3}
+--- !u!4 &6876593792848933647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 800befcc62026a34693972077c91698d, type: 3}
+  m_PrefabInstance: {fileID: 6876593792849062287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6901283742914246248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 659
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -45.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &6901283742914112744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 6901283742914246248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7686986083705339796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 481
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0099945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &7686986083705726228 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 7686986083705339796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7702601791626009600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &7702601791625610880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 7702601791626009600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7780392468247780257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_Name
+      value: Natures_Rock_Big (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_RootOrder
+      value: 239
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -37.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.44999695
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+--- !u!4 &7780392468248166689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
+  m_PrefabInstance: {fileID: 7780392468247780257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7807540023748456321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_Name
+      value: Props_Bench_1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_RootOrder
+      value: 308
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2100067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+--- !u!4 &7807540023748588801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 62125825e49febf4a89f76daf85d9ca7, type: 3}
+  m_PrefabInstance: {fileID: 7807540023748456321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8090334050627464923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_Name
+      value: Natures_Big Tree (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 388
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.8426666
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+--- !u!4 &8090334050627335259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
+  m_PrefabInstance: {fileID: 8090334050627464923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8199875111448207054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &8199875111447807054 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 8199875111448207054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8328037627673353229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_Name
+      value: Natures_Pot Bush_big (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 337
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!4 &8328037627672954509 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+  m_PrefabInstance: {fileID: 8328037627673353229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8389318042323530354
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 761
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &8389318042323921138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 8389318042323530354}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8524106272784719940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 620
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &8524106272784857796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 8524106272784719940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8973914915666499086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1506108449680990961}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_Name
+      value: Natures_Bush_01 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_RootOrder
+      value: 262
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+--- !u!4 &8973914915666889870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 31bbda51eeab02f44a8e92a7da2f5ff8, type: 3}
+  m_PrefabInstance: {fileID: 8973914915666499086}
+  m_PrefabAsset: {fileID: 0}
