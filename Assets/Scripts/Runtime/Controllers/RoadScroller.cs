@@ -13,6 +13,10 @@ namespace WordWheel.Runtime
         private void Awake()
         {
             TryGetComponent(out _renderer);
+            if (_renderer != null)
+            {
+                _currentOffset = _renderer.material.mainTextureOffset;
+            }   
         }
 
         private void Update()

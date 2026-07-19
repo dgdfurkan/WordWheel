@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3759765173319345800}
   - component: {fileID: 4265021514979308117}
   - component: {fileID: 6429712505840120124}
+  - component: {fileID: 2125541655837274543}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6673
+  m_VersionIndex: 6676
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -301,3 +302,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2125541655837274543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5127358999496712117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca890c1b6660e048bc64e134601233c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WordWheel.Runtime.RoadScroller
+  difficultySettings: {fileID: 11400000, guid: f026c7f5c318c0b4a965afcdfb88d157, type: 2}
+  scrollDirection: {x: 0, y: -1}

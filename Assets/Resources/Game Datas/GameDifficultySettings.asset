@@ -16,7 +16,7 @@ MonoBehaviour:
   - mode: 0
     settings:
       roadScrollSpeed: -1.5
-      playerTransitionSpeed: 5
+      playerTransitionSpeed: 8
       obstacleSpeed: 15
       obstaclePoolSize: 10
       minSpawnDelay: 3
