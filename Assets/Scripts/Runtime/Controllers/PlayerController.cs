@@ -10,6 +10,8 @@ namespace WordWheel.Runtime
         private int _currentLane = 1;
         private Vector3 _targetPosition;
 
+        public int CurrentLane => _currentLane;
+
         private void OnEnable()
         {
             SwipeInput.OnSwipeLeft += MoveLeft;

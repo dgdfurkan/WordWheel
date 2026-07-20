@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: WordsStringTable_tr
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 905ca1d17192b534ea6c2dcf94615dc4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 214763466752
+    m_Localized: zaman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214797021184
+    m_Localized: "y\u0131l"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409792
+    m_Localized: insanlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409793
+    m_Localized: yol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409794
+    m_Localized: "g\xFCn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409795
+    m_Localized: adam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409796
+    m_Localized: "\u015Fey"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409797
+    m_Localized: "kad\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409798
+    m_Localized: "ya\u015Fam"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409799
+    m_Localized: "\xE7ocuk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409800
+    m_Localized: "d\xFCnya"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409801
+    m_Localized: okul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409802
+    m_Localized: devlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409803
+    m_Localized: aile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409804
+    m_Localized: "\xF6\u011Frenci"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409805
+    m_Localized: grup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409806
+    m_Localized: "\xFClke"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409807
+    m_Localized: sorun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409808
+    m_Localized: el
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409809
+    m_Localized: "b\xF6l\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409810
+    m_Localized: yer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409811
+    m_Localized: durum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409812
+    m_Localized: hafta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409813
+    m_Localized: "\u015Firket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409814
+    m_Localized: sistem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409815
+    m_Localized: program
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409816
+    m_Localized: soru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409817
+    m_Localized: "i\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409818
+    m_Localized: "h\xFCk\xFCmet"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409819
+    m_Localized: "say\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409820
+    m_Localized: gece
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409821
+    m_Localized: nokta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409822
+    m_Localized: ev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409823
+    m_Localized: su
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409824
+    m_Localized: oda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409825
+    m_Localized: anne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409826
+    m_Localized: alan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409827
+    m_Localized: para
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409828
+    m_Localized: hikaye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409829
+    m_Localized: "ger\xE7ek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409830
+    m_Localized: ay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409831
+    m_Localized: "\xE7ok"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409832
+    m_Localized: hak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409833
+    m_Localized: "\xE7al\u0131\u015Fma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409834
+    m_Localized: kitap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409835
+    m_Localized: "g\xF6z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409836
+    m_Localized: "i\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409837
+    m_Localized: kelime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409838
+    m_Localized: "i\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409839
+    m_Localized: sorun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409840
+    m_Localized: taraf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409841
+    m_Localized: "t\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409842
+    m_Localized: "ba\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409843
+    m_Localized: ev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409844
+    m_Localized: hizmet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409845
+    m_Localized: "arkada\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409846
+    m_Localized: baba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409847
+    m_Localized: "g\xFC\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409848
+    m_Localized: saat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409849
+    m_Localized: oyun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409850
+    m_Localized: "\xE7izgi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409851
+    m_Localized: son
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409852
+    m_Localized: "\xFCye"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409853
+    m_Localized: yasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409854
+    m_Localized: araba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409855
+    m_Localized: "\u015Fehir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409856
+    m_Localized: topluluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409857
+    m_Localized: isim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409858
+    m_Localized: "ba\u015Fkan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409859
+    m_Localized: "tak\u0131m"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409860
+    m_Localized: dakika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409861
+    m_Localized: fikir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409862
+    m_Localized: "\xE7ocuk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409863
+    m_Localized: "g\xF6vde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409864
+    m_Localized: bilgi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409865
+    m_Localized: "s\u0131rt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409866
+    m_Localized: ebeveyn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409867
+    m_Localized: "y\xFCz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409868
+    m_Localized: "di\u011Ferleri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409869
+    m_Localized: seviye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409870
+    m_Localized: ofis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409871
+    m_Localized: "kap\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409872
+    m_Localized: "sa\u011Fl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409873
+    m_Localized: "ki\u015Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409874
+    m_Localized: sanat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604096
+    m_Localized: "sava\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604097
+    m_Localized: tarih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604098
+    m_Localized: parti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604099
+    m_Localized: "sonu\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604100
+    m_Localized: "de\u011Fi\u015Fim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604101
+    m_Localized: sabah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604102
+    m_Localized: sebep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604103
+    m_Localized: "ara\u015Ft\u0131rma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604104
+    m_Localized: "k\u0131z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604105
+    m_Localized: adam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604106
+    m_Localized: an
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604107
+    m_Localized: hava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604108
+    m_Localized: "\xF6\u011Fretmen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604109
+    m_Localized: kuvvet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604110
+    m_Localized: "e\u011Fitim"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

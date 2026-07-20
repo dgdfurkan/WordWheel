@@ -22,6 +22,7 @@ namespace WordWheel.Runtime.Managers
         private Queue<ObstacleCar> _pool;
         private List<ObstacleCar> _activeCars;
         private float _nextSpawnTime;
+        private bool _isSpawningPaused;
 
         private void Start()
         {
@@ -52,6 +53,8 @@ namespace WordWheel.Runtime.Managers
 
         private void Update()
         {
+            if (_isSpawningPaused) return;
+
             if (Time.time >= _nextSpawnTime)
             {
                 SpawnCar();
@@ -112,6 +115,34 @@ namespace WordWheel.Runtime.Managers
             var settings = difficultySettings.GetSettings(gameMode);
             float delay = Random.Range(settings.MinSpawnDelay, settings.MaxSpawnDelay);
             _nextSpawnTime = Time.time + delay;
+        }
+
+        public bool IsSpawningPaused
+        {
+            get => _isSpawningPaused;
+            set
+            {
+                _isSpawningPaused = value;
+                if (!_isSpawningPaused)
+                {
+                    ScheduleNextSpawn();
+                }
+            }
+        }
+
+        public void ClearActiveObstacles()
+        {
+            if (_activeCars == null) return;
+            for (int i = _activeCars.Count - 1; i >= 0; i--)
+            {
+                ObstacleCar car = _activeCars[i];
+                if (car != null)
+                {
+                    car.gameObject.SetActive(false);
+                    _pool.Enqueue(car);
+                }
+            }
+            _activeCars.Clear();
         }
     }
 }

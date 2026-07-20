@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: WordsStringTable_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 905ca1d17192b534ea6c2dcf94615dc4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 214763466752
+    m_Localized: time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214797021184
+    m_Localized: year
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409792
+    m_Localized: people
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409793
+    m_Localized: way
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409794
+    m_Localized: day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409795
+    m_Localized: man
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409796
+    m_Localized: thing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409797
+    m_Localized: woman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409798
+    m_Localized: life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409799
+    m_Localized: child
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409800
+    m_Localized: world
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409801
+    m_Localized: school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409802
+    m_Localized: state
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409803
+    m_Localized: family
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409804
+    m_Localized: student
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409805
+    m_Localized: group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409806
+    m_Localized: country
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409807
+    m_Localized: problem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409808
+    m_Localized: hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409809
+    m_Localized: part
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409810
+    m_Localized: place
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409811
+    m_Localized: case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409812
+    m_Localized: week
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409813
+    m_Localized: company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409814
+    m_Localized: system
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409815
+    m_Localized: program
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409816
+    m_Localized: question
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409817
+    m_Localized: work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409818
+    m_Localized: government
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409819
+    m_Localized: number
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409820
+    m_Localized: night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409821
+    m_Localized: point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409822
+    m_Localized: home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409823
+    m_Localized: water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409824
+    m_Localized: room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409825
+    m_Localized: mother
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409826
+    m_Localized: area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409827
+    m_Localized: money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409828
+    m_Localized: story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409829
+    m_Localized: fact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409830
+    m_Localized: month
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409831
+    m_Localized: lot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409832
+    m_Localized: right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409833
+    m_Localized: study
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409834
+    m_Localized: book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409835
+    m_Localized: eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409836
+    m_Localized: job
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409837
+    m_Localized: word
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409838
+    m_Localized: business
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409839
+    m_Localized: issue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409840
+    m_Localized: side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409841
+    m_Localized: kind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409842
+    m_Localized: head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409843
+    m_Localized: house
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409844
+    m_Localized: service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409845
+    m_Localized: friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409846
+    m_Localized: father
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409847
+    m_Localized: power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409848
+    m_Localized: hour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409849
+    m_Localized: game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409850
+    m_Localized: line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409851
+    m_Localized: end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409852
+    m_Localized: member
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409853
+    m_Localized: law
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409854
+    m_Localized: car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409855
+    m_Localized: city
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409856
+    m_Localized: community
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409857
+    m_Localized: name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409858
+    m_Localized: president
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409859
+    m_Localized: team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409860
+    m_Localized: minute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409861
+    m_Localized: idea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409862
+    m_Localized: kid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409863
+    m_Localized: body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409864
+    m_Localized: information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409865
+    m_Localized: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409866
+    m_Localized: parent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409867
+    m_Localized: face
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409868
+    m_Localized: others
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409869
+    m_Localized: level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409870
+    m_Localized: office
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409871
+    m_Localized: door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409872
+    m_Localized: health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409873
+    m_Localized: person
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409874
+    m_Localized: art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604096
+    m_Localized: war
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604097
+    m_Localized: history
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604098
+    m_Localized: party
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604099
+    m_Localized: result
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604100
+    m_Localized: change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604101
+    m_Localized: morning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604102
+    m_Localized: reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604103
+    m_Localized: research
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604104
+    m_Localized: girl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604105
+    m_Localized: guy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604106
+    m_Localized: moment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604107
+    m_Localized: air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604108
+    m_Localized: teacher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604109
+    m_Localized: force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604110
+    m_Localized: education
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

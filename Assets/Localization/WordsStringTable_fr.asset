@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: WordsStringTable_fr
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 905ca1d17192b534ea6c2dcf94615dc4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 214763466752
+    m_Localized: temps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214797021184
+    m_Localized: "ann\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409792
+    m_Localized: gens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409793
+    m_Localized: chemin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409794
+    m_Localized: jour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409795
+    m_Localized: homme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409796
+    m_Localized: chose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409797
+    m_Localized: femme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409798
+    m_Localized: vie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409799
+    m_Localized: enfant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409800
+    m_Localized: monde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409801
+    m_Localized: "\xE9cole"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409802
+    m_Localized: "\xE9tat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409803
+    m_Localized: famille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409804
+    m_Localized: "\xE9tudiant"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409805
+    m_Localized: groupe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409806
+    m_Localized: pays
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409807
+    m_Localized: "probl\xE8me"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409808
+    m_Localized: main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409809
+    m_Localized: partie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409810
+    m_Localized: endroit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409811
+    m_Localized: cas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409812
+    m_Localized: semaine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409813
+    m_Localized: entreprise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409814
+    m_Localized: "syst\xE8me"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409815
+    m_Localized: programme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409816
+    m_Localized: question
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409817
+    m_Localized: travail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409818
+    m_Localized: gouvernement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409819
+    m_Localized: nombre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409820
+    m_Localized: nuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409821
+    m_Localized: point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409822
+    m_Localized: maison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409823
+    m_Localized: eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409824
+    m_Localized: chambre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409825
+    m_Localized: "m\xE8re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409826
+    m_Localized: zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409827
+    m_Localized: argent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409828
+    m_Localized: histoire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409829
+    m_Localized: fait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409830
+    m_Localized: mois
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409831
+    m_Localized: lot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409832
+    m_Localized: droit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409833
+    m_Localized: "\xE9tude"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409834
+    m_Localized: livre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409835
+    m_Localized: "\u0153il"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409836
+    m_Localized: emploi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409837
+    m_Localized: mot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409838
+    m_Localized: affaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409839
+    m_Localized: "probl\xE8me"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409840
+    m_Localized: "c\xF4t\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409841
+    m_Localized: type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409842
+    m_Localized: "t\xEAte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409843
+    m_Localized: maison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409844
+    m_Localized: service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409845
+    m_Localized: ami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409846
+    m_Localized: "p\xE8re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409847
+    m_Localized: pouvoir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409848
+    m_Localized: heure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409849
+    m_Localized: jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409850
+    m_Localized: ligne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409851
+    m_Localized: fin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409852
+    m_Localized: membre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409853
+    m_Localized: loi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409854
+    m_Localized: voiture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409855
+    m_Localized: ville
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409856
+    m_Localized: "communaut\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409857
+    m_Localized: nom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409858
+    m_Localized: "pr\xE9sident"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409859
+    m_Localized: "\xE9quipe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409860
+    m_Localized: minute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409861
+    m_Localized: "id\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409862
+    m_Localized: gamin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409863
+    m_Localized: corps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409864
+    m_Localized: information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409865
+    m_Localized: dos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409866
+    m_Localized: parent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409867
+    m_Localized: visage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409868
+    m_Localized: autres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409869
+    m_Localized: niveau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409870
+    m_Localized: bureau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409871
+    m_Localized: porte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409872
+    m_Localized: "sant\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409873
+    m_Localized: personne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214805409874
+    m_Localized: art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604096
+    m_Localized: guerre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604097
+    m_Localized: histoire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604098
+    m_Localized: "f\xEAte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604099
+    m_Localized: "r\xE9sultat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604100
+    m_Localized: changement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604101
+    m_Localized: matin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604102
+    m_Localized: raison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604103
+    m_Localized: recherche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604104
+    m_Localized: fille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604105
+    m_Localized: gars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604106
+    m_Localized: moment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604107
+    m_Localized: air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604108
+    m_Localized: professeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604109
+    m_Localized: force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 214809604110
+    m_Localized: "\xE9ducation"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
