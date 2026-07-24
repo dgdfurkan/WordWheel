@@ -11,9 +11,24 @@ namespace WordWheel.Runtime.Controllers
         [SerializeField] private Transform[] segments;
         [SerializeField] private float segmentLength = 80.0f;
         [SerializeField] private float despawnZ = -40.0f;
+        [SerializeField] private bool startPaused = true;
+
+        private bool _isScrollingPaused;
+
+        public bool IsScrollingPaused
+        {
+            get => _isScrollingPaused;
+            set => _isScrollingPaused = value;
+        }
+
+        private void Awake()
+        {
+            _isScrollingPaused = startPaused;
+        }
 
         private void Update()
         {
+            if (_isScrollingPaused) return;
             if (segments == null || segments.Length == 0) return;
             if (useRoadSpeed && difficultySettings == null) return;
 

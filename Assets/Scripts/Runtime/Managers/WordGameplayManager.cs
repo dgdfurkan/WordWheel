@@ -29,9 +29,12 @@ namespace WordWheel.Runtime.Managers
         [SerializeField] private float checkZ = 0.0f;
         [SerializeField] private float laneDistance = 2.0f;
         [SerializeField] private float startScaleFactor = 0.1f;
+        [SerializeField] private bool waitForGameplayStart = true;
 
         private StringTable _nativeTable;
         private StringTable _targetTable;
+        private Coroutine _gameplayLoopCoroutine;
+        private bool _gameplayActive;
 
         private IEnumerator Start()
         {
@@ -56,7 +59,44 @@ namespace WordWheel.Runtime.Managers
                 yield break;
             }
 
-            StartCoroutine(GameplayLoop());
+            if (!waitForGameplayStart)
+            {
+                BeginGameplay();
+            }
+        }
+
+        public void BeginGameplay()
+        {
+            if (_gameplayActive)
+            {
+                return;
+            }
+
+            _gameplayActive = true;
+
+            if (_gameplayLoopCoroutine != null)
+            {
+                StopCoroutine(_gameplayLoopCoroutine);
+            }
+
+            _gameplayLoopCoroutine = StartCoroutine(GameplayLoop());
+        }
+
+        public void PauseGameplay()
+        {
+            _gameplayActive = false;
+
+            if (_gameplayLoopCoroutine != null)
+            {
+                StopCoroutine(_gameplayLoopCoroutine);
+                _gameplayLoopCoroutine = null;
+            }
+
+            if (obstacleSpawner != null)
+            {
+                obstacleSpawner.IsSpawningPaused = true;
+                obstacleSpawner.ClearActiveObstacles();
+            }
         }
 
         private IEnumerator GameplayLoop()

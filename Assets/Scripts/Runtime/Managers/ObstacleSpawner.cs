@@ -48,7 +48,7 @@ namespace WordWheel.Runtime.Managers
                 CreateNewObstacleInPool();
             }
 
-            ScheduleNextSpawn();
+            _isSpawningPaused = true;
         }
 
         private void Update()
