@@ -62,6 +62,20 @@ namespace Runtime.UI.Data
         public float CloseDelayBeforePanel => Mathf.Max(0f, closeDelayBeforePanel);
         public UIPanelElementAnimationGroup[] Groups => groups ?? Array.Empty<UIPanelElementAnimationGroup>();
 
+        public void Apply(
+            bool isEnabled,
+            UIPanelChildAnimationTiming childTiming,
+            float startOffset,
+            float closeGap,
+            UIPanelElementAnimationGroup[] childGroups)
+        {
+            enabled = isEnabled;
+            timing = childTiming;
+            panelStartOffset = startOffset;
+            closeDelayBeforePanel = closeGap;
+            groups = childGroups ?? Array.Empty<UIPanelElementAnimationGroup>();
+        }
+
         public void AddGroup(UIPanelElementAnimationGroup group)
         {
             if (group == null)

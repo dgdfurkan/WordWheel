@@ -80,6 +80,7 @@ namespace Runtime.UI.Utilities
 
             Sequence sequence = DOTween.Sequence();
             ApplyUpdateMode(sequence, settings.UseUnscaledTime);
+            LinkSequenceToTarget(sequence, canvasGroup);
 
             switch (settings.AnimationType)
             {
@@ -182,6 +183,16 @@ namespace Runtime.UI.Utilities
         private static void ApplyUpdateMode(Tween tween, bool useUnscaledTime)
         {
             tween.SetUpdate(useUnscaledTime);
+        }
+
+        private static void LinkSequenceToTarget(Sequence sequence, CanvasGroup canvasGroup)
+        {
+            if (sequence == null || canvasGroup == null)
+            {
+                return;
+            }
+
+            sequence.SetLink(canvasGroup.gameObject, LinkBehaviour.KillOnDestroy);
         }
 
         private static void PrepareFade(

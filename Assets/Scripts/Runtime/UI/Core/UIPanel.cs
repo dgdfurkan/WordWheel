@@ -1,7 +1,9 @@
 using System;
 using DG.Tweening;
 using Runtime.UI.Animation;
+using Runtime.UI.Configuration;
 using Runtime.UI.Data;
+using Runtime.UI.Enums;
 using Runtime.UI.Interfaces;
 using Runtime.UI.Utilities;
 using Sirenix.OdinInspector;
@@ -30,6 +32,14 @@ namespace Runtime.UI.Core
         [TabGroup("Animation", "Elements")]
         [InlineProperty, HideLabel]
         [SerializeField] private UIPanelChildAnimationSettings childAnimations = new UIPanelChildAnimationSettings();
+
+        [TabGroup("Animation", "Script")]
+        [InfoBox(
+            "Override ConfigurePanelAnimations() in your panel script to define animations in code. " +
+            "Settings sync to the Inspector tabs above on Awake and in Edit Mode.",
+            InfoMessageType.Info)]
+        [ShowInInspector, ReadOnly, LabelText("Source")]
+        private string ScriptAnimationSource => GetType().Name + ".ConfigurePanelAnimations()";
 
         [TabGroup("Animation", "Preview")]
         [InfoBox("Preview buttons work in Play Mode. Scene gizmos show capture paths when this panel is selected.", InfoMessageType.Info)]
@@ -77,6 +87,7 @@ namespace Runtime.UI.Core
         public bool IsTransitioning => isTransitioning;
         public RectTransform PanelTransform => GetComponent<RectTransform>();
         public Type PanelType => GetType();
+        public virtual UIPanelDisplayMode DisplayMode => UIPanelDisplayMode.Exclusive;
 
         protected CanvasGroup canvasGroup;
 
@@ -86,33 +97,111 @@ namespace Runtime.UI.Core
         private UIElementAnimationStateRegistry elementStateRegistry;
         private Action pendingAnimationCallback;
 
+        private bool visualDefaultsCached;
+
         private static bool IsPlaying => Application.isPlaying;
 
-        public UIPanelChildAnimationSettings ChildAnimations => childAnimations;
+        internal void SyncRuntimeState()
+        {
+            EnsureInitialized();
 
-        protected virtual void Awake()
+            if (!gameObject.activeInHierarchy)
+            {
+                isTransitioning = false;
+                isOpen = false;
+            }
+        }
+
+        internal bool IsDisplayed => gameObject.activeSelf && isOpen && !isTransitioning;
+
+        internal void HealOpenState()
+        {
+            SyncRuntimeState();
+
+            if (!gameObject.activeSelf && (isOpen || isTransitioning))
+            {
+                ForceSyncClosedState();
+            }
+        }
+
+        /// <summary>
+        /// Applies initial hidden state once at bootstrap.
+        /// Must NOT run inside Awake — first SetActive(true) triggers Awake and would fight Open().
+        /// </summary>
+        internal void BootstrapStartHiddenState()
+        {
+            EnsureInitialized();
+
+            if (!startHidden)
+            {
+                isOpen = gameObject.activeInHierarchy;
+                return;
+            }
+
+            isOpen = false;
+            isTransitioning = false;
+
+            if (gameObject.activeSelf)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+
+        internal bool CanStartOpen()
+        {
+            return !isTransitioning;
+        }
+
+        internal void BringToFront()
+        {
+            transform.SetAsLastSibling();
+        }
+
+        internal void EnsureInitialized()
         {
             if (GetComponent<RectTransform>() == null)
             {
                 Debug.LogError($"[UIPanel] {gameObject.name} must have RectTransform component!");
             }
 
-            canvasGroup = GetComponent<CanvasGroup>();
             if (canvasGroup == null)
             {
-                canvasGroup = gameObject.AddComponent<CanvasGroup>();
+                canvasGroup = GetComponent<CanvasGroup>();
+                if (canvasGroup == null)
+                {
+                    canvasGroup = gameObject.AddComponent<CanvasGroup>();
+                }
             }
 
-            elementStateRegistry = new UIElementAnimationStateRegistry();
-            CacheDefaultTransformState();
-            RefreshChildAnimationRegistry();
+            if (elementStateRegistry == null)
+            {
+                elementStateRegistry = new UIElementAnimationStateRegistry();
+                RefreshChildAnimationRegistry();
+            }
+
+            if (!visualDefaultsCached && PanelTransform != null)
+            {
+                CacheDefaultTransformState();
+                visualDefaultsCached = true;
+            }
+        }
+
+        public UIPanelChildAnimationSettings ChildAnimations => childAnimations;
+        public UIPanelAnimationSettings OpenAnimationSettings => openAnimation;
+        public UIPanelAnimationSettings CloseAnimationSettings => closeAnimation;
+
+        protected virtual void ConfigurePanelAnimations(UIPanelAnimationSetup setup) { }
+
+        protected virtual void Awake()
+        {
+            EnsureInitialized();
+            ApplyScriptAnimationConfiguration();
 
             if (startHidden)
             {
-                gameObject.SetActive(false);
                 isOpen = false;
             }
-            else
+            else if (!isOpen)
             {
                 isOpen = gameObject.activeInHierarchy;
             }
@@ -123,25 +212,86 @@ namespace Runtime.UI.Core
             KillActiveAnimation();
         }
 
+#if UNITY_EDITOR
+        protected virtual void OnValidate()
+        {
+            ApplyScriptAnimationConfiguration();
+        }
+#endif
+
+        protected void ApplyScriptAnimationConfiguration()
+        {
+            UIPanelAnimationSetup setup = new UIPanelAnimationSetup(openAnimation, closeAnimation, childAnimations);
+            ConfigurePanelAnimations(setup);
+
+            if (!setup.HasChanges)
+            {
+                return;
+            }
+
+            setup.Commit();
+            RefreshChildAnimationRegistry();
+
+#if UNITY_EDITOR
+            if (!Application.isPlaying)
+            {
+                UnityEditor.EditorUtility.SetDirty(this);
+            }
+#endif
+        }
+
         public bool Open()
         {
-            if (isOpen || isTransitioning)
+            EnsureInitialized();
+            HealOpenState();
+
+            gameObject.SetActive(true);
+
+            // First activation runs Awake synchronously; never allow startHidden to deactivate again here.
+            if (!gameObject.activeSelf)
             {
-                return false;
+                gameObject.SetActive(true);
+            }
+
+            BringToFront();
+
+            if (DisplayMode == UIPanelDisplayMode.Overlay)
+            {
+                UIManager.Instance?.RefreshOverlayScrim();
+            }
+
+            if (IsDisplayed)
+            {
+                return true;
+            }
+
+            if (isTransitioning)
+            {
+                KillActiveAnimation();
             }
 
             isTransitioning = true;
-            gameObject.SetActive(true);
-            isOpen = true;
+
+            if (DisplayMode == UIPanelDisplayMode.Overlay)
+            {
+                isOpen = true;
+            }
+            else
+            {
+                isOpen = false;
+            }
 
             ResetVisualState();
             elementStateRegistry?.RestoreAll();
             HandlePanelOpening();
             PlayConfiguredOpenAnimation(() =>
             {
+                isOpen = true;
                 isTransitioning = false;
+                FinalizeOpenVisuals();
                 HandlePanelOpened();
                 OnPanelOpened?.Invoke();
+                UIManager.Instance?.RefreshOverlayScrim();
             });
 
             return true;
@@ -149,11 +299,38 @@ namespace Runtime.UI.Core
 
         public bool Close()
         {
-            if (!isOpen || isTransitioning)
+            EnsureInitialized();
+
+            if (isTransitioning)
+            {
+                KillActiveAnimation();
+                isTransitioning = false;
+
+                if (!gameObject.activeSelf)
+                {
+                    return false;
+                }
+
+                if (!isOpen)
+                {
+                    isOpen = true;
+                }
+            }
+            else if (!gameObject.activeSelf && !isOpen)
+            {
+                return false;
+            }
+            else if (gameObject.activeSelf && !isOpen)
+            {
+                isOpen = true;
+            }
+
+            if (!isOpen)
             {
                 return false;
             }
 
+            KillActiveAnimation();
             isTransitioning = true;
             HandlePanelClosing();
 
@@ -165,6 +342,7 @@ namespace Runtime.UI.Core
                 isTransitioning = false;
                 HandlePanelClosed();
                 OnPanelClosed?.Invoke();
+                UIManager.Instance?.RefreshOverlayScrim();
             });
 
             return true;
@@ -200,11 +378,44 @@ namespace Runtime.UI.Core
 
         internal void ForceClose()
         {
+            if (!this || !gameObject)
+            {
+                return;
+            }
+
+            EnsureInitialized();
+
+            bool wasVisible = isOpen || isTransitioning || gameObject.activeSelf;
             KillActiveAnimation();
             isTransitioning = false;
             isOpen = false;
+
+            if (gameObject.activeSelf)
+            {
+                RestoreHiddenState();
+            }
+
             gameObject.SetActive(false);
-            RestoreHiddenState();
+
+            if (wasVisible)
+            {
+                HandlePanelClosed();
+                OnPanelClosed?.Invoke();
+                UIManager.Instance?.RefreshOverlayScrim();
+            }
+        }
+
+        internal void ForceSyncClosedState()
+        {
+            ForceClose();
+        }
+
+        internal void PrepareForImmediateOpen()
+        {
+            EnsureInitialized();
+            KillActiveAnimation();
+            isTransitioning = false;
+            isOpen = false;
         }
 
         public void PreviewOpenAnimation()
@@ -321,6 +532,13 @@ namespace Runtime.UI.Core
 
         private void ResetVisualState()
         {
+            EnsureInitialized();
+
+            if (PanelTransform == null || canvasGroup == null)
+            {
+                return;
+            }
+
             PanelTransform.localScale = defaultScale;
             PanelTransform.anchoredPosition = defaultAnchoredPosition;
             canvasGroup.alpha = 1f;
@@ -330,6 +548,22 @@ namespace Runtime.UI.Core
         {
             ResetVisualState();
             elementStateRegistry?.RestoreAll();
+        }
+
+        private void FinalizeOpenVisuals()
+        {
+            EnsureInitialized();
+
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+            }
+
+            if (PanelTransform != null)
+            {
+                PanelTransform.localScale = defaultScale;
+                PanelTransform.anchoredPosition = defaultAnchoredPosition;
+            }
         }
 
         private void CompleteOrInstant(Sequence sequence, Action onComplete)
@@ -354,6 +588,7 @@ namespace Runtime.UI.Core
                 return;
             }
 
+            sequence.Play();
             sequence.OnComplete(InvokeOnce);
             sequence.OnKill(InvokeOnce);
         }
@@ -368,7 +603,12 @@ namespace Runtime.UI.Core
             }
 
             activeSequence = null;
-            UIAnimationHelper.KillPanelTweens(canvasGroup, PanelTransform);
+
+            if (canvasGroup != null || PanelTransform != null)
+            {
+                UIAnimationHelper.KillPanelTweens(canvasGroup, PanelTransform);
+            }
+
             elementStateRegistry?.KillAllTweens();
         }
     }

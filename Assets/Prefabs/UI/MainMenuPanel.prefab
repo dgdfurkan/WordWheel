@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3097337, guid: eea61185277b4483f8c5211286da269c, type: 3}
+  m_Sprite: {fileID: 1547683398, guid: 289dc13e8b1d94095bf3ffaa2b46c84d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1598,7 +1598,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5795421730089035780}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2180238233354797518}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.MainMenuPanel, Assembly-CSharp
+        m_MethodName: OnPlayButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3757347201147634590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +1998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2909684386934329749}
   - component: {fileID: 7830416840348128136}
+  - component: {fileID: 2180238233354797518}
   m_Layer: 5
   m_Name: MainMenuPanel
   m_TagString: Untagged
@@ -2033,6 +2046,203 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4630232170490607652}
   m_CullTransparentMesh: 1
+--- !u!114 &2180238233354797518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4630232170490607652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0bdacc980d54e38ac2d0f569253833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Runtime.UI.Panels.MainMenuPanel
+  startHidden: 1
+  openAnimation:
+    animationType: 1
+    duration: 0.28
+    ease: 6
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  closeAnimation:
+    animationType: 1
+    duration: 0.22
+    ease: 5
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  childAnimations:
+    enabled: 1
+    timing: 1
+    panelStartOffset: 0.06
+    closeDelayBeforePanel: 0
+    groups:
+    - groupName: Main Menu
+      enabled: 1
+      playOnOpen: 1
+      playOnClose: 1
+      groupStartDelay: 0
+      staggerInterval: 0.04
+      reverseStaggerOnClose: 1
+      elements:
+      - label: Logo
+        target: {fileID: 1265419627381158383}
+        openType: 3
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.24
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 120
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Play
+        target: {fileID: 2543507105519740500}
+        openType: 8
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.2
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 160
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Garage
+        target: {fileID: 1408020740156462512}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 500
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Leaderboard
+        target: {fileID: 3395716907198988562}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 500
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Settings
+        target: {fileID: 6228190486263593476}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 500
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Language
+        target: {fileID: 7502981574283383380}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 500
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+  OnPanelOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPanelClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  logo: {fileID: 1265419627381158383}
+  playButton: {fileID: 2543507105519740500}
+  garageButton: {fileID: 1408020740156462512}
+  leaderboardButton: {fileID: 3395716907198988562}
+  settingsButton: {fileID: 6228190486263593476}
+  languageButton: {fileID: 7502981574283383380}
 --- !u!1 &5024206662089913925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,7 +2256,7 @@ GameObject:
   - component: {fileID: 6386556434526645226}
   - component: {fileID: 142516238889259094}
   m_Layer: 5
-  m_Name: MissionButton
+  m_Name: LeaderboardButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2068,7 +2278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146.69, y: -379}
+  m_AnchoredPosition: {x: 150, y: -379}
   m_SizeDelta: {x: 293.39026, y: 190.8358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2510851390922484489
@@ -2099,7 +2309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1200982015, guid: eea61185277b4483f8c5211286da269c, type: 3}
+  m_Sprite: {fileID: 1890315721, guid: 289dc13e8b1d94095bf3ffaa2b46c84d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2152,7 +2362,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6386556434526645226}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2180238233354797518}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.MainMenuPanel, Assembly-CSharp
+        m_MethodName: OnLeaderboardButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5310308694849276638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,7 +2623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146.7, y: -569.84}
+  m_AnchoredPosition: {x: 150, y: -569.84}
   m_SizeDelta: {x: 293.39026, y: 190.8358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8250542828953257593
@@ -2432,7 +2654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1614068150, guid: eea61185277b4483f8c5211286da269c, type: 3}
+  m_Sprite: {fileID: 1588054296, guid: 289dc13e8b1d94095bf3ffaa2b46c84d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2485,7 +2707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5503474480983661515}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2180238233354797518}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.MainMenuPanel, Assembly-CSharp
+        m_MethodName: OnLanguageButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5631632683188716067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3974,7 +4208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.7, y: -569.84}
+  m_AnchoredPosition: {x: -150, y: -569.84}
   m_SizeDelta: {x: 293.39026, y: 190.8358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7101603468996492352
@@ -4005,7 +4239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1843825721, guid: eea61185277b4483f8c5211286da269c, type: 3}
+  m_Sprite: {fileID: 1748190284, guid: 289dc13e8b1d94095bf3ffaa2b46c84d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4058,7 +4292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 588023607772359168}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2180238233354797518}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.MainMenuPanel, Assembly-CSharp
+        m_MethodName: OnSettingsButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8556094919454377187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,7 +4506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.7, y: -379}
+  m_AnchoredPosition: {x: -150, y: -379}
   m_SizeDelta: {x: 293.39026, y: 190.8358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4790313165616427165
@@ -4291,7 +4537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1682631036, guid: eea61185277b4483f8c5211286da269c, type: 3}
+  m_Sprite: {fileID: -261442818, guid: 289dc13e8b1d94095bf3ffaa2b46c84d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4344,7 +4590,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7377184704460872206}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2180238233354797518}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.MainMenuPanel, Assembly-CSharp
+        m_MethodName: OnGarageButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8929346954213129746
 GameObject:
   m_ObjectHideFlags: 0

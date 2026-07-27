@@ -37,6 +37,22 @@ namespace Runtime.UI.Data
         public bool UseScreenWidthForSlide => useScreenWidthForSlide;
         public bool UseUnscaledTime => useUnscaledTime;
 
+        public void Apply(
+            UIPanelAnimationType type,
+            float animDuration = 0.4f,
+            Ease animEase = Ease.OutQuad,
+            float animSlideOffset = 100f,
+            bool screenWidthSlide = true,
+            bool unscaledTime = false)
+        {
+            animationType = type;
+            duration = animDuration;
+            ease = animEase;
+            slideOffset = animSlideOffset;
+            useScreenWidthForSlide = screenWidthSlide;
+            useUnscaledTime = unscaledTime;
+        }
+
         private static bool UsesSlide(UIPanelAnimationType type)
         {
             return type is UIPanelAnimationType.SlideFromLeft

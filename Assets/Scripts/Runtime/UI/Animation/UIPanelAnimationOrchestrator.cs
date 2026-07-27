@@ -9,7 +9,7 @@ namespace Runtime.UI.Animation
 {
     /// <summary>
     /// Combines panel-level and child-level animation sequences based on timing settings.
-    /// On close, child exit animations always finish before the panel hides (prevents instant cut-off).
+    /// On close, child exit animations overlap with the panel fade for a smoother handoff.
     /// </summary>
     public static class UIPanelAnimationOrchestrator
     {
@@ -22,12 +22,21 @@ namespace Runtime.UI.Animation
             Vector3 defaultScale,
             UIElementAnimationStateRegistry registry)
         {
-            Sequence panelSequence = UIAnimationHelper.PlayOpenAnimation(
-                panelSettings,
-                canvasGroup,
-                panelTransform,
-                defaultAnchoredPosition,
-                defaultScale);
+            bool suppressPanelFade = ShouldSuppressPanelFadeOnOpen(panelSettings, childSettings);
+
+            if (suppressPanelFade && canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+            }
+
+            Sequence panelSequence = suppressPanelFade
+                ? null
+                : UIAnimationHelper.PlayOpenAnimation(
+                    panelSettings,
+                    canvasGroup,
+                    panelTransform,
+                    defaultAnchoredPosition,
+                    defaultScale);
 
             Sequence childSequence = UIPanelElementAnimationPlayer.PlayOpenGroups(childSettings, registry);
             return CombineOpenSequences(panelSequence, childSequence, childSettings);
@@ -141,16 +150,14 @@ namespace Runtime.UI.Animation
                 return childSequence;
             }
 
-            // Root panel fade/scale hides all children. Always let elements exit first.
+            float childDuration = childSequence.Duration();
+            float panelDuration = panelSequence.Duration();
+            float overlap = Mathf.Clamp(panelDuration * 0.8f, 0.12f, childDuration * 0.45f);
+            float panelInsertTime = Mathf.Max(0f, childDuration - overlap);
+
             Sequence master = DOTween.Sequence();
             master.Append(childSequence);
-
-            if (childSettings.CloseDelayBeforePanel > 0f)
-            {
-                master.AppendInterval(childSettings.CloseDelayBeforePanel);
-            }
-
-            master.Append(panelSequence);
+            master.Insert(panelInsertTime, panelSequence);
             return master;
         }
 
@@ -165,6 +172,29 @@ namespace Runtime.UI.Animation
         private static bool HasDuration(Sequence sequence)
         {
             return sequence != null && sequence.Duration() > 0f;
+        }
+
+        private static bool ShouldSuppressPanelFadeOnOpen(
+            UIPanelAnimationSettings panelSettings,
+            UIPanelChildAnimationSettings childSettings)
+        {
+            if (panelSettings == null
+                || panelSettings.AnimationType != Enums.UIPanelAnimationType.Fade
+                || childSettings == null
+                || !childSettings.Enabled)
+            {
+                return false;
+            }
+
+            foreach (UIPanelElementAnimationGroup group in childSettings.Groups)
+            {
+                if (group != null && group.Enabled && group.PlayOnOpen)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }

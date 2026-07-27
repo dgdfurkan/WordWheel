@@ -57,5 +57,28 @@ namespace Runtime.UI.Data
                 elements = groupElements ?? Array.Empty<UIPanelElementAnimationEntry>()
             };
         }
+
+        public static UIPanelElementAnimationGroup Create(
+            string name,
+            UIPanelElementAnimationEntry[] groupElements,
+            float stagger,
+            float groupDelay = 0f,
+            bool reverseStaggerOnClose = true,
+            bool groupEnabled = true,
+            bool animateOnOpen = true,
+            bool animateOnClose = true)
+        {
+            return new UIPanelElementAnimationGroup
+            {
+                groupName = name,
+                enabled = groupEnabled,
+                playOnOpen = animateOnOpen,
+                playOnClose = animateOnClose,
+                groupStartDelay = groupDelay,
+                staggerInterval = stagger,
+                reverseStaggerOnClose = reverseStaggerOnClose,
+                elements = groupElements ?? Array.Empty<UIPanelElementAnimationEntry>()
+            };
+        }
     }
 }

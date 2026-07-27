@@ -1,5 +1,6 @@
 using DG.Tweening;
 using Runtime.UI.Core;
+using Runtime.UI.Enums;
 using Runtime.UI.Utilities;
 using UnityEngine;
 using WordWheel.Runtime.Managers;
@@ -8,6 +9,7 @@ namespace Runtime.UI.Panels
 {
     public class PausePanel : UIPanel
     {
+        public override UIPanelDisplayMode DisplayMode => UIPanelDisplayMode.Overlay;
         protected override void HandlePanelOpened()
         {
             Time.timeScale = 0f;
@@ -51,8 +53,7 @@ namespace Runtime.UI.Panels
                     GameFlowManager.Instance.StopGameplay();
                 }
 
-                UIManager.Instance.CloseAllPanels();
-                UIManager.Instance.OpenPanel<MainMenuPanel>();
+                UIManager.Instance.SwitchToPanel<MainMenuPanel>();
             }).SetUpdate(true);
         }
     }

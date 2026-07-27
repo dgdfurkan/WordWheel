@@ -137,7 +137,11 @@ namespace Runtime.UI.Animation
                     continue;
                 }
 
-                float startAt = group.GroupStartDelay + index * group.StaggerInterval + entry.Delay;
+                float startAt = group.GroupStartDelay + index * group.StaggerInterval;
+                if (!isClosing)
+                {
+                    startAt += entry.Delay;
+                }
                 Sequence entrySequence = BuildEntrySequence(entry, snapshot, isClosing);
                 if (entrySequence == null)
                 {
@@ -156,6 +160,11 @@ namespace Runtime.UI.Animation
             UIElementTransformSnapshot snapshot,
             bool isClosing)
         {
+            if (snapshot?.Target == null)
+            {
+                return null;
+            }
+
             snapshot.KillTweens();
 
             UIPanelElementAnimationType animationType = isClosing
@@ -179,6 +188,7 @@ namespace Runtime.UI.Animation
 
             Sequence sequence = DOTween.Sequence();
             sequence.SetUpdate(entry.UseUnscaledTime);
+            sequence.SetLink(snapshot.Target.gameObject, LinkBehaviour.KillOnDestroy);
             AppendAnimationTweens(sequence, entry, snapshot, animationType, duration, ease, isClosing);
 
             return sequence.Duration() > 0f ? sequence : null;
@@ -306,29 +316,33 @@ namespace Runtime.UI.Animation
             switch (animationType)
             {
                 case UIPanelElementAnimationType.Fade:
-                    sequence.Append(CreateFadeTween(snapshot, fadeTarget, duration, ease));
+                    SafeAppend(sequence, CreateFadeTween(snapshot, fadeTarget, duration, ease));
                     break;
 
                 case UIPanelElementAnimationType.Scale:
-                    sequence.Append(target.DOScale(defaultScale * scaleTarget, duration).SetEase(ease));
+                    SafeAppend(sequence, target.DOScale(defaultScale * scaleTarget, duration).SetEase(ease));
                     break;
 
                 case UIPanelElementAnimationType.PopIn:
-                    sequence.Append(target.DOScale(defaultScale * scaleTarget, duration).SetEase(Ease.OutBack));
+                    SafeAppend(sequence, target.DOScale(defaultScale * scaleTarget, duration).SetEase(isClosing ? ease : Ease.OutBack));
+                    if (isClosing)
+                    {
+                        SafeJoin(sequence, CreateFadeTween(snapshot, 0f, duration * 0.85f, Ease.InQuad));
+                    }
                     break;
 
                 case UIPanelElementAnimationType.ElasticScale:
-                    sequence.Append(target.DOScale(defaultScale * scaleTarget, duration).SetEase(Ease.OutElastic));
+                    SafeAppend(sequence, target.DOScale(defaultScale * scaleTarget, duration).SetEase(Ease.OutElastic));
                     break;
 
                 case UIPanelElementAnimationType.PunchScale:
                     if (isClosing)
                     {
-                        sequence.Append(target.DOScale(defaultScale * entry.ScaleFrom, duration).SetEase(ease));
+                        SafeAppend(sequence, target.DOScale(defaultScale * entry.ScaleFrom, duration).SetEase(ease));
                     }
                     else
                     {
-                        sequence.Append(target.DOPunchScale(Vector3.one * 0.15f, duration, 8, 0.8f));
+                        SafeAppend(sequence, target.DOPunchScale(Vector3.one * 0.15f, duration, 8, 0.8f));
                     }
                     break;
 
@@ -337,59 +351,83 @@ namespace Runtime.UI.Animation
                 case UIPanelElementAnimationType.SlideFromTop:
                 case UIPanelElementAnimationType.SlideFromBottom:
                 case UIPanelElementAnimationType.MoveCustom:
-                    sequence.Append(target.DOAnchorPos(moveTarget, duration).SetEase(ease));
+                    SafeAppend(sequence, target.DOAnchorPos(moveTarget, duration).SetEase(ease));
+                    if (isClosing)
+                    {
+                        SafeJoin(sequence, CreateFadeTween(snapshot, 0f, duration, Ease.InQuad));
+                    }
                     break;
 
                 case UIPanelElementAnimationType.FadeAndScale:
-                    sequence.Append(CreateFadeTween(snapshot, fadeTarget, duration, ease));
-                    sequence.Join(target.DOScale(defaultScale * scaleTarget, duration).SetEase(ease));
+                    SafeAppend(sequence, CreateFadeTween(snapshot, fadeTarget, duration, ease));
+                    SafeJoin(sequence, target.DOScale(defaultScale * scaleTarget, duration).SetEase(ease));
                     break;
 
                 case UIPanelElementAnimationType.FadeAndSlide:
-                    sequence.Append(CreateFadeTween(snapshot, fadeTarget, duration, ease));
-                    sequence.Join(target.DOAnchorPos(moveTarget, duration).SetEase(ease));
+                    SafeAppend(sequence, CreateFadeTween(snapshot, fadeTarget, duration, ease));
+                    SafeJoin(sequence, target.DOAnchorPos(moveTarget, duration).SetEase(ease));
                     break;
 
                 case UIPanelElementAnimationType.RotateIn:
-                    sequence.Append(target.DOLocalRotate(new Vector3(0f, 0f, rotationTarget), duration).SetEase(ease));
+                    SafeAppend(sequence, target.DOLocalRotate(new Vector3(0f, 0f, rotationTarget), duration).SetEase(ease));
                     break;
 
                 case UIPanelElementAnimationType.DriftIn:
-                    sequence.Append(CreateFadeTween(snapshot, fadeTarget, duration * 0.8f, Ease.OutQuad));
-                    sequence.Join(target.DOAnchorPos(moveTarget, duration).SetEase(Ease.OutQuart));
+                    SafeAppend(sequence, CreateFadeTween(snapshot, fadeTarget, duration * 0.8f, Ease.OutQuad));
+                    SafeJoin(sequence, target.DOAnchorPos(moveTarget, duration).SetEase(Ease.OutQuart));
                     if (!isClosing)
                     {
-                        sequence.Append(target.DOAnchorPosY(snapshot.AnchoredPosition.y - 6f, duration * 0.35f).SetEase(Ease.InOutSine));
-                        sequence.Append(target.DOAnchorPosY(snapshot.AnchoredPosition.y, duration * 0.35f).SetEase(Ease.InOutSine));
+                        SafeAppend(sequence, target.DOAnchorPosY(snapshot.AnchoredPosition.y - 6f, duration * 0.35f).SetEase(Ease.InOutSine));
+                        SafeAppend(sequence, target.DOAnchorPosY(snapshot.AnchoredPosition.y, duration * 0.35f).SetEase(Ease.InOutSine));
                     }
                     break;
 
                 case UIPanelElementAnimationType.DropBounce:
-                    sequence.Append(target.DOAnchorPos(snapshot.AnchoredPosition, duration).SetEase(Ease.OutBounce));
+                    SafeAppend(sequence, target.DOAnchorPos(snapshot.AnchoredPosition, duration).SetEase(Ease.OutBounce));
                     if (!isClosing)
                     {
-                        sequence.Join(CreateFadeTween(snapshot, fadeTarget, duration * 0.6f, Ease.OutQuad));
+                        SafeJoin(sequence, CreateFadeTween(snapshot, fadeTarget, duration * 0.6f, Ease.OutQuad));
                     }
                     break;
 
                 case UIPanelElementAnimationType.FloatUp:
-                    sequence.Append(CreateFadeTween(snapshot, fadeTarget, duration * 0.75f, Ease.OutQuad));
-                    sequence.Join(target.DOAnchorPos(snapshot.AnchoredPosition, duration).SetEase(Ease.OutQuart));
+                    SafeAppend(sequence, CreateFadeTween(snapshot, fadeTarget, duration * 0.75f, Ease.OutQuad));
+                    SafeJoin(sequence, target.DOAnchorPos(snapshot.AnchoredPosition, duration).SetEase(Ease.OutQuart));
                     break;
 
                 case UIPanelElementAnimationType.SceneCapture:
-                    sequence.Append(target.DOAnchorPos(
+                    SafeAppend(sequence, target.DOAnchorPos(
                         isClosing ? entry.SceneCaptureFrom : entry.SceneCaptureTo,
                         duration).SetEase(ease));
                     break;
 
                 case UIPanelElementAnimationType.SceneCaptureFade:
-                    sequence.Append(target.DOAnchorPos(
+                    SafeAppend(sequence, target.DOAnchorPos(
                         isClosing ? entry.SceneCaptureFrom : entry.SceneCaptureTo,
                         duration).SetEase(ease));
-                    sequence.Join(CreateFadeTween(snapshot, fadeTarget, duration, ease));
+                    SafeJoin(sequence, CreateFadeTween(snapshot, fadeTarget, duration, ease));
                     break;
             }
+        }
+
+        private static void SafeAppend(Sequence sequence, Tween tween)
+        {
+            if (sequence == null || tween == null)
+            {
+                return;
+            }
+
+            sequence.Append(tween);
+        }
+
+        private static void SafeJoin(Sequence sequence, Tween tween)
+        {
+            if (sequence == null || tween == null)
+            {
+                return;
+            }
+
+            sequence.Join(tween);
         }
 
         private static bool IsSceneCaptureType(UIPanelElementAnimationType animationType)
@@ -532,7 +570,13 @@ namespace Runtime.UI.Animation
                         entryDuration += entry.Duration * 0.7f;
                     }
 
-                    float total = group.GroupStartDelay + index * group.StaggerInterval + entry.Delay + entryDuration;
+                    float total = group.GroupStartDelay + index * group.StaggerInterval;
+                    if (!isClosing)
+                    {
+                        total += entry.Delay;
+                    }
+
+                    total += entryDuration;
                     maxDuration = Mathf.Max(maxDuration, total);
                 }
             }

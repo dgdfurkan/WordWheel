@@ -1075,6 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5854602828588487007}
   - component: {fileID: 4091702790653646300}
+  - component: {fileID: 5690241059365612998}
   m_Layer: 5
   m_Name: LanguagePanel
   m_TagString: Untagged
@@ -1110,6 +1111,155 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245326727758599426}
   m_CullTransparentMesh: 1
+--- !u!114 &5690241059365612998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245326727758599426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ffd43ce207a6409d9ca2b154262a1d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Runtime.UI.Panels.LanguagePanel
+  startHidden: 1
+  openAnimation:
+    animationType: 1
+    duration: 0.28
+    ease: 6
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  closeAnimation:
+    animationType: 1
+    duration: 0.22
+    ease: 5
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  childAnimations:
+    enabled: 1
+    timing: 1
+    panelStartOffset: 0.06
+    closeDelayBeforePanel: 0
+    groups:
+    - groupName: Language Content
+      enabled: 1
+      playOnOpen: 1
+      playOnClose: 1
+      groupStartDelay: 0
+      staggerInterval: 0.045
+      reverseStaggerOnClose: 1
+      elements:
+      - label: Header
+        target: {fileID: 5594319690790161490}
+        openType: 3
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.22
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 120
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: NativePart
+        target: {fileID: 1690300738991547449}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.2
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 100
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: LearningPart
+        target: {fileID: 6014901971438179994}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.2
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 100
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: Back
+        target: {fileID: 5832996047153342476}
+        openType: 14
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.2
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 120
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+  OnPanelOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPanelClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  header: {fileID: 5594319690790161490}
+  nativePart: {fileID: 1690300738991547449}
+  learningPart: {fileID: 6014901971438179994}
+  backButton: {fileID: 5832996047153342476}
+  nativeLanguageButtons: []
+  targetLanguageButtons: []
 --- !u!1 &1288239859145782049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,7 +2656,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1272757647065706791}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5690241059365612998}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.LanguagePanel, Assembly-CSharp
+        m_MethodName: OnBackButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2222375612457589900
 GameObject:
   m_ObjectHideFlags: 0

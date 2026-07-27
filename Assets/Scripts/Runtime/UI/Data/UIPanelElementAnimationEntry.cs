@@ -227,6 +227,66 @@ namespace Runtime.UI.Data
             };
         }
 
+        public void ApplyScriptConfiguration(
+            RectTransform targetTransform,
+            string entryLabel,
+            UIPanelElementAnimationType openAnimationType,
+            float entryDelay = 0f,
+            float entryDuration = 0.45f,
+            Ease entryEase = Ease.OutCubic,
+            float slideDist = 120f,
+            bool screenRelativeSlide = false,
+            Vector2 moveOffset = default,
+            float fromScale = 0f,
+            float toScale = 1f,
+            float fromFade = 0f,
+            float toFade = 1f,
+            float fromRotation = 0f,
+            float toRotation = 0f,
+            bool mirrorClose = true,
+            UIPanelElementAnimationType customCloseType = UIPanelElementAnimationType.Fade,
+            float customCloseDuration = 0.3f,
+            Ease customCloseEase = Ease.InCubic,
+            bool unscaledTime = false,
+            Vector2? captureFrom = null,
+            Vector2? captureTo = null)
+        {
+            label = string.IsNullOrWhiteSpace(entryLabel)
+                ? targetTransform != null ? targetTransform.name : "Element"
+                : entryLabel;
+            target = targetTransform;
+            openType = openAnimationType;
+            delay = entryDelay;
+            duration = entryDuration;
+            ease = entryEase;
+            slideDistance = slideDist;
+            useScreenRelativeSlide = screenRelativeSlide;
+            customMoveOffset = moveOffset;
+            scaleFrom = fromScale;
+            scaleTo = toScale;
+            fadeFrom = fromFade;
+            fadeTo = toFade;
+            rotationFrom = fromRotation;
+            rotationTo = toRotation;
+            mirrorOpenOnClose = mirrorClose;
+            closeType = customCloseType;
+            closeDuration = customCloseDuration;
+            closeEase = customCloseEase;
+            useUnscaledTime = unscaledTime;
+
+            if (captureFrom.HasValue)
+            {
+                sceneCaptureFrom = captureFrom.Value;
+                hasSceneCaptureFrom = true;
+            }
+
+            if (captureTo.HasValue)
+            {
+                sceneCaptureTo = captureTo.Value;
+                hasSceneCaptureTo = true;
+            }
+        }
+
         public string GetListLabel()
         {
             if (target == null)

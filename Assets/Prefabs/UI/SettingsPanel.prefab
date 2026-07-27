@@ -636,7 +636,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1775002505682934714}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2754691624003910489}
+        m_TargetAssemblyTypeName: Runtime.UI.Panels.SettingsPanel, Assembly-CSharp
+        m_MethodName: OnBackButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2055305043780678511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6320027218291517639
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3965,6 +3977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267436147081265978}
   - component: {fileID: 92275898883680808}
+  - component: {fileID: 2754691624003910489}
   m_Layer: 5
   m_Name: SettingsPanel
   m_TagString: Untagged
@@ -4002,6 +4015,253 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7833771924612105940}
   m_CullTransparentMesh: 1
+--- !u!114 &2754691624003910489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833771924612105940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df6c8475b9ab4c568ad8e3c0972de73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Runtime.UI.Panels.SettingsPanel
+  startHidden: 1
+  openAnimation:
+    animationType: 1
+    duration: 0.28
+    ease: 6
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  closeAnimation:
+    animationType: 1
+    duration: 0.22
+    ease: 5
+    slideOffset: 100
+    useScreenWidthForSlide: 1
+    useUnscaledTime: 0
+  childAnimations:
+    enabled: 1
+    timing: 1
+    panelStartOffset: 0.06
+    closeDelayBeforePanel: 0
+    groups:
+    - groupName: Settings Content
+      enabled: 1
+      playOnOpen: 1
+      playOnClose: 1
+      groupStartDelay: 0
+      staggerInterval: 0.045
+      reverseStaggerOnClose: 1
+      elements:
+      - label: SettingHeader
+        target: {fileID: 5149315160597543128}
+        openType: 3
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.22
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 120
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: MusicPlace
+        target: {fileID: 7932184575352586501}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: SoundPlace
+        target: {fileID: 7679406448982842826}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: VibrationPlace
+        target: {fileID: 4898711840432884429}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: LanguagePlace
+        target: {fileID: 6477878557369954633}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: GraphicPlace
+        target: {fileID: 6386959153974059871}
+        openType: 6
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 27
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: NotificationPlace
+        target: {fileID: 1267327016605621373}
+        openType: 7
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.18
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 1200
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+      - label: BackButton
+        target: {fileID: 5773235079554689994}
+        openType: 14
+        sceneCaptureFrom: {x: 0, y: 0}
+        sceneCaptureTo: {x: 0, y: 0}
+        hasSceneCaptureFrom: 0
+        hasSceneCaptureTo: 0
+        delay: 0
+        duration: 0.2
+        ease: 9
+        useUnscaledTime: 0
+        slideDistance: 120
+        useScreenRelativeSlide: 0
+        customMoveOffset: {x: 0, y: 0}
+        scaleFrom: 0
+        scaleTo: 1
+        fadeFrom: 0
+        fadeTo: 1
+        rotationFrom: 0
+        rotationTo: 0
+        mirrorOpenOnClose: 1
+        closeType: 1
+        closeDuration: 0.3
+        closeEase: 8
+  OnPanelOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPanelClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  header: {fileID: 5149315160597543128}
+  musicPlace: {fileID: 7932184575352586501}
+  soundPlace: {fileID: 7679406448982842826}
+  vibrationPlace: {fileID: 4898711840432884429}
+  languagePlace: {fileID: 6477878557369954633}
+  graphicPlace: {fileID: 6386959153974059871}
+  notificationPlace: {fileID: 1267327016605621373}
+  backButton: {fileID: 5773235079554689994}
 --- !u!1 &7911360672634442005
 GameObject:
   m_ObjectHideFlags: 0
