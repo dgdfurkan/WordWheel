@@ -10,6 +10,7 @@ namespace WordWheel.Runtime.Managers
     {
         [SerializeField] private GameDifficultySettingsSO difficultySettings;
         [SerializeField] private GameMode gameMode = GameMode.Normal;
+        [SerializeField] private PlayerController playerController;
         [SerializeField] private GameObject[] obstaclePrefabs;
 
         [Header("Spawn Settings")]
@@ -26,6 +27,11 @@ namespace WordWheel.Runtime.Managers
 
         private void Start()
         {
+            if (playerController == null)
+            {
+                playerController = FindAnyObjectByType<PlayerController>();
+            }
+
             if (difficultySettings == null)
             {
                 Debug.LogError("DifficultySettings not assigned!");
@@ -89,7 +95,8 @@ namespace WordWheel.Runtime.Managers
 
             int laneIndex = Random.Range(0, 3);
             float targetX = (laneIndex - 1) * laneDistance;
-            car.transform.position = new Vector3(targetX, 0f, spawnZ);
+            float playerZ = playerController != null ? playerController.transform.position.z : 0f;
+            car.transform.position = new Vector3(targetX, 0f, playerZ + spawnZ);
             car.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
 
             var settings = difficultySettings.GetSettings(gameMode);
@@ -100,6 +107,7 @@ namespace WordWheel.Runtime.Managers
                 targetZ,
                 despawnZ,
                 startScaleFactor,
+                playerController,
                 ReturnToPool
             );
         }

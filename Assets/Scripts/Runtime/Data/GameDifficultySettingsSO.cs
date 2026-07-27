@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using WordWheel.Runtime.Enums;
 
 namespace WordWheel.Runtime
@@ -11,14 +12,15 @@ namespace WordWheel.Runtime
         [Serializable]
         public class GameModeSettings
         {
-            [SerializeField] private float roadScrollSpeed = 2.0f;
+            [FormerlySerializedAs("roadScrollSpeed")]
+            [SerializeField] private float playerSpeed = 2.0f;
             [SerializeField] private float playerTransitionSpeed = 15.0f;
             [SerializeField] private float obstacleSpeed = 5.0f;
             [SerializeField] private int obstaclePoolSize = 10;
             [SerializeField] private float minSpawnDelay = 1.5f;
             [SerializeField] private float maxSpawnDelay = 3.0f;
 
-            public float RoadScrollSpeed => roadScrollSpeed;
+            public float PlayerSpeed => playerSpeed;
             public float PlayerTransitionSpeed => playerTransitionSpeed;
             public float ObstacleSpeed => obstacleSpeed;
             public int ObstaclePoolSize => obstaclePoolSize;
@@ -38,7 +40,7 @@ namespace WordWheel.Runtime
         private Dictionary<GameMode, GameModeSettings> _modeSettingsDict = new Dictionary<GameMode, GameModeSettings>();
         private static readonly GameModeSettings _defaultSettings = new GameModeSettings();
 
-        public float RoadScrollSpeed => GetSettings(GameMode.Normal).RoadScrollSpeed;
+        public float PlayerSpeed => GetSettings(GameMode.Normal).PlayerSpeed;
         public float PlayerTransitionSpeed => GetSettings(GameMode.Normal).PlayerTransitionSpeed;
         public float ObstacleSpeed => GetSettings(GameMode.Normal).ObstacleSpeed;
 

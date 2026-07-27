@@ -6,10 +6,6 @@ using WordWheel.Runtime.Controllers;
 
 namespace WordWheel.Runtime.Managers
 {
-    /// <summary>
-    /// Coordinates menu and gameplay state.
-    /// Gameplay systems stay paused until the player reaches the gameplay flow.
-    /// </summary>
     public class GameFlowManager : MonoBehaviour
     {
         private static GameFlowManager instance;
@@ -36,7 +32,6 @@ namespace WordWheel.Runtime.Managers
         [SerializeField] private ObstacleSpawner obstacleSpawner;
         [SerializeField] private WordGameplayManager wordGameplayManager;
         [SerializeField] private EnvironmentScroller environmentScroller;
-        [SerializeField] private RoadScroller roadScroller;
 
         private bool gameplayStarted;
 
@@ -139,11 +134,6 @@ namespace WordWheel.Runtime.Managers
             {
                 environmentScroller = FindAnyObjectByType<EnvironmentScroller>();
             }
-
-            if (roadScroller == null)
-            {
-                roadScroller = FindAnyObjectByType<RoadScroller>();
-            }
         }
 
         private void PauseGameplaySystems()
@@ -162,11 +152,6 @@ namespace WordWheel.Runtime.Managers
             {
                 environmentScroller.IsScrollingPaused = true;
             }
-
-            if (roadScroller != null)
-            {
-                roadScroller.IsScrollingPaused = true;
-            }
         }
 
         private void ResumeGameplaySystems()
@@ -184,11 +169,6 @@ namespace WordWheel.Runtime.Managers
             if (environmentScroller != null)
             {
                 environmentScroller.IsScrollingPaused = false;
-            }
-
-            if (roadScroller != null)
-            {
-                roadScroller.IsScrollingPaused = false;
             }
         }
     }

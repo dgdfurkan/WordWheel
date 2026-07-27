@@ -15,7 +15,7 @@ MonoBehaviour:
   modeSettingsList:
   - mode: 0
     settings:
-      roadScrollSpeed: -1.5
+      playerSpeed: 80
       playerTransitionSpeed: 8
       obstacleSpeed: 15
       obstaclePoolSize: 10

@@ -156,7 +156,8 @@ namespace WordWheel.Runtime.Managers
             string rightWord = correctLane == 2 ? correctTargetWord : incorrectTargetWord;
 
             // Spawn Word Gate
-            GameObject gateObj = Instantiate(wordGatePrefab, new Vector3(0f, 0f, spawnZ), Quaternion.identity);
+            float playerZ = playerController != null ? playerController.transform.position.z : 0f;
+            GameObject gateObj = Instantiate(wordGatePrefab, new Vector3(0f, 0f, playerZ + spawnZ), Quaternion.identity);
             if (!gateObj.TryGetComponent<WordGateController>(out var gateController))
             {
                 gateController = gateObj.AddComponent<WordGateController>();
@@ -164,7 +165,7 @@ namespace WordWheel.Runtime.Managers
 
             bool choiceMade = false;
             int chosenLane = -1;
-            float speed = Mathf.Abs(difficultySettings != null ? difficultySettings.RoadScrollSpeed : 2.0f);
+            float speed = 0.0f;
 
             gateController.Initialize(
                 leftWord,

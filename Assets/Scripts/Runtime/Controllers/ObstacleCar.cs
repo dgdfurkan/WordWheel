@@ -6,11 +6,12 @@ namespace WordWheel.Runtime.Controllers
     public class ObstacleCar : MonoBehaviour
     {
         private float _speed;
-        private float _spawnZ;
-        private float _targetZ;
-        private float _despawnZ;
+        private float _spawnOffset;
+        private float _targetOffset;
+        private float _despawnOffset;
         private float _startScaleFactor;
         private Vector3 _initialScale;
+        private PlayerController _player;
         private Action<ObstacleCar> _onDeactivate;
 
         private void Awake()
@@ -20,17 +21,19 @@ namespace WordWheel.Runtime.Controllers
 
         public void Initialize(
             float speed,
-            float spawnZ,
-            float targetZ,
-            float despawnZ,
+            float spawnOffset,
+            float targetOffset,
+            float despawnOffset,
             float startScaleFactor,
+            PlayerController player,
             Action<ObstacleCar> onDeactivate)
         {
             _speed = speed;
-            _spawnZ = spawnZ;
-            _targetZ = targetZ;
-            _despawnZ = despawnZ;
+            _spawnOffset = spawnOffset;
+            _targetOffset = targetOffset;
+            _despawnOffset = despawnOffset;
             _startScaleFactor = startScaleFactor;
+            _player = player;
             _onDeactivate = onDeactivate;
 
             UpdateScaleAndPosition();
@@ -41,15 +44,28 @@ namespace WordWheel.Runtime.Controllers
             transform.position += Vector3.back * (_speed * Time.deltaTime);
             UpdateScaleAndPosition();
 
-            if (transform.position.z <= _despawnZ)
+            if (_player != null)
             {
-                Deactivate();
+                float distance = transform.position.z - _player.transform.position.z;
+                if (distance <= _despawnOffset)
+                {
+                    Deactivate();
+                }
+            }
+            else
+            {
+                if (transform.position.z <= _despawnOffset)
+                {
+                    Deactivate();
+                }
             }
         }
 
         private void UpdateScaleAndPosition()
         {
-            float t = Mathf.InverseLerp(_spawnZ, _targetZ, transform.position.z);
+            if (_player == null) return;
+            float distance = transform.position.z - _player.transform.position.z;
+            float t = Mathf.InverseLerp(_spawnOffset, _targetOffset, distance);
             transform.localScale = Vector3.Lerp(_initialScale * _startScaleFactor, _initialScale, t);
         }
 

@@ -32,9 +32,17 @@ namespace WordWheel.Runtime
         private void Update()
         {
             if (difficultySettings == null) return;
+
             float targetX = (_currentLane - 1) * laneDistance;
-            _targetPosition = new Vector3(targetX, transform.position.y, transform.position.z);
-            transform.position = Vector3.Lerp(transform.position, _targetPosition, Time.deltaTime * difficultySettings.PlayerTransitionSpeed);
+            float currentZ = transform.position.z;
+
+            if (Managers.GameFlowManager.Instance != null && Managers.GameFlowManager.Instance.IsGameplayStarted)
+            {
+                currentZ += Mathf.Abs(difficultySettings.PlayerSpeed) * Time.deltaTime;
+            }
+
+            float newX = Mathf.Lerp(transform.position.x, targetX, Time.deltaTime * difficultySettings.PlayerTransitionSpeed);
+            transform.position = new Vector3(newX, transform.position.y, currentZ);
         }
 
         private void MoveLeft()

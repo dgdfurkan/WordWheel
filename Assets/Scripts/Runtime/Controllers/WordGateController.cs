@@ -69,29 +69,42 @@ namespace WordWheel.Runtime.Controllers
 
         private void Update()
         {
-            transform.position += Vector3.back * (_speed * Time.deltaTime);
+            if (_speed > 0f)
+            {
+                transform.position += Vector3.back * (_speed * Time.deltaTime);
+            }
             UpdateScaleAndPosition();
 
             // Check crossing point
-            if (!_hasCrossed && transform.position.z <= _checkZ)
+            if (!_hasCrossed && _player != null && _player.transform.position.z >= transform.position.z)
             {
                 _hasCrossed = true;
-                if (_player != null)
-                {
-                    _onCrossedGate?.Invoke(_player.CurrentLane);
-                }
+                _onCrossedGate?.Invoke(_player.CurrentLane);
             }
 
             // Despawn
-            if (transform.position.z <= _despawnZ)
+            if (_player != null)
             {
-                Destroy(gameObject);
+                float distance = transform.position.z - _player.transform.position.z;
+                if (distance <= -10f)
+                {
+                    Destroy(gameObject);
+                }
+            }
+            else
+            {
+                if (transform.position.z <= _despawnZ)
+                {
+                    Destroy(gameObject);
+                }
             }
         }
 
         private void UpdateScaleAndPosition()
         {
-            float t = Mathf.InverseLerp(_spawnZ, _targetZ, transform.position.z);
+            if (_player == null) return;
+            float distance = transform.position.z - _player.transform.position.z;
+            float t = Mathf.InverseLerp(_spawnZ, _targetZ, distance);
             transform.localScale = Vector3.Lerp(_initialScale * _startScaleFactor, _initialScale, t);
         }
     }
