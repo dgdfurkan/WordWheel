@@ -6,6 +6,7 @@ using Runtime.UI.Core;
 using Runtime.UI.Enums;
 using Runtime.UI.Utilities;
 using Runtime.Enums;
+using WordWheel.Runtime.Managers;
 
 namespace Runtime.UI.Panels
 {
@@ -105,7 +106,13 @@ namespace Runtime.UI.Panels
 
             DOVirtual.DelayedCall(0.25f, () =>
             {
-                UIManager.Instance.SwitchToPanel<GameplayPanel>();
+                UIManager.Instance.RunLoadingTransition(
+                    () =>
+                    {
+                        UIManager.Instance.ClosePanel<LanguagePanel>();
+                        UIManager.Instance.SwitchToPanel<GameplayPanel>();
+                    },
+                    onComplete: () => GameFlowManager.Instance.StartGameplay());
             }).SetUpdate(true);
         }
 

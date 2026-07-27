@@ -10,6 +10,11 @@ namespace Runtime.UI.Panels
     {
         protected override void HandlePanelOpened()
         {
+            if (UIManager.Instance != null && UIManager.Instance.IsLoadingSessionActive())
+            {
+                return;
+            }
+
             GameFlowManager.Instance.StartGameplay();
         }
 

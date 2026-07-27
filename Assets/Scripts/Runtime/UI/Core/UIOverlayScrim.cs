@@ -27,6 +27,7 @@ namespace Runtime.UI.Core
                 typeof(CanvasGroup),
                 typeof(UIOverlayScrim));
 
+            scrimObject.hideFlags = HideFlags.DontSave | HideFlags.HideInHierarchy;
             scrimObject.transform.SetParent(canvasRoot, false);
 
             UIOverlayScrim scrim = scrimObject.GetComponent<UIOverlayScrim>();

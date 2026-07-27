@@ -1,7 +1,11 @@
+using System;
+using System.Collections;
 using Runtime.UI.Interfaces;
 using Runtime.UI.Panels;
+using Runtime.UI.Panels.Loading;
 using UnityEngine;
 using UnityEngine.Events;
+using WordWheel.Runtime.Managers;
 
 namespace Runtime.UI.Core
 {
@@ -10,6 +14,7 @@ namespace Runtime.UI.Core
     /// Panel state is owned by each UIPanel instance (single source of truth).
     /// Exclusive panels replace the current screen. Overlay panels stack on top without closing the screen below.
     /// </summary>
+    [DefaultExecutionOrder(-200)]
     public class UIManager : MonoBehaviour
     {
         private static UIManager instance;
@@ -31,6 +36,7 @@ namespace Runtime.UI.Core
         }
 
         [Header("Bootstrap")]
+        [SerializeField] private bool openLoadingPanelOnStart = true;
         [SerializeField] private bool openMainMenuOnStart = true;
 
         private System.Collections.Generic.Dictionary<System.Type, IUIPanel> panelRegistry =
@@ -51,15 +57,121 @@ namespace Runtime.UI.Core
             }
 
             instance = this;
+
+            if (openLoadingPanelOnStart)
+            {
+                BootstrapStartupWithEarlyLoading();
+                return;
+            }
+
+            InitializePanels();
+        }
+
+        private void BootstrapStartupWithEarlyLoading()
+        {
+            LoadingPanel loadingPanel = GetComponentInChildren<LoadingPanel>(includeInactive: true);
+            if (loadingPanel == null)
+            {
+                EnsureLoadingPanelExists();
+                loadingPanel = GetPanel<LoadingPanel>();
+            }
+            else
+            {
+                loadingPanel.EnsureInitialized();
+                RegisterPanel(loadingPanel);
+            }
+
+            BeginStartupSplash();
+            StartCoroutine(CompleteDeferredPanelBootstrap());
+        }
+
+        private IEnumerator CompleteDeferredPanelBootstrap()
+        {
+            yield return null;
             InitializePanels();
         }
 
         private void Start()
         {
-            if (openMainMenuOnStart)
+            if (!openLoadingPanelOnStart && openMainMenuOnStart)
             {
                 OpenPanel<MainMenuPanel>();
             }
+        }
+
+        private void BeginStartupSplash()
+        {
+            if (!TryGetPanel(out LoadingPanel loadingPanel))
+            {
+                return;
+            }
+
+            loadingPanel.BringToFront();
+            loadingPanel.PlaySplash(() =>
+            {
+                ClosePanelThenOpen<LoadingPanel, MainMenuPanel>();
+            });
+        }
+
+        public void RunLoadingTransition(
+            Action midAction,
+            Action onComplete = null,
+            LoadingPresentation presentation = LoadingPresentation.Quick,
+            float holdAfterIntro = 0.15f)
+        {
+            EnsureLoadingPanelExists();
+            LoadingPanel panel = GetPanel<LoadingPanel>();
+            LoadingTransitionRequest request = LoadingTransitionRequest.Transition(midAction, onComplete, holdAfterIntro);
+            request.Presentation = presentation;
+            panel.RunTransition(request);
+        }
+
+        public bool IsLoadingSessionActive()
+        {
+            return TryGetPanel(out LoadingPanel panel) && panel.IsSessionActive;
+        }
+
+        public void StartGameWithLoadingTransition()
+        {
+            RunLoadingTransition(
+                () => SwitchToPanel<GameplayPanel>(),
+                onComplete: () => GameFlowManager.Instance.StartGameplay(),
+                presentation: LoadingPresentation.Quick);
+        }
+
+        public void ShowLoadingOverlay(LoadingTransitionRequest request)
+        {
+            EnsureLoadingPanelExists();
+            GetPanel<LoadingPanel>().RunTransition(request);
+        }
+
+        private void EnsureLoadingPanelExists()
+        {
+            if (TryGetPanel(out LoadingPanel _))
+            {
+                return;
+            }
+
+            GameObject panelObject = new GameObject(
+                "LoadingPanel",
+                typeof(RectTransform),
+                typeof(CanvasGroup),
+                typeof(LoadingPanelView),
+                typeof(LoadingPanel));
+
+            RectTransform rectTransform = panelObject.GetComponent<RectTransform>();
+            rectTransform.SetParent(transform, false);
+            rectTransform.anchorMin = Vector2.zero;
+            rectTransform.anchorMax = Vector2.one;
+            rectTransform.offsetMin = Vector2.zero;
+            rectTransform.offsetMax = Vector2.zero;
+            rectTransform.localScale = Vector3.one;
+
+            LoadingPanel panel = panelObject.GetComponent<LoadingPanel>();
+            panel.BootstrapStartHiddenState();
+            RegisterPanel(panel);
+
+            Debug.Log("[UIManager] Runtime LoadingPanel created and registered.");
         }
 
         private void InitializePanels()
@@ -71,7 +183,13 @@ namespace Runtime.UI.Core
             foreach (UIPanel panel in allPanels)
             {
                 panel.EnsureInitialized();
-                panel.BootstrapStartHiddenState();
+
+                bool skipBootstrapHidden = openLoadingPanelOnStart && panel is LoadingPanel;
+                if (!skipBootstrapHidden)
+                {
+                    panel.BootstrapStartHiddenState();
+                }
+
                 RegisterPanel(panel);
             }
 
@@ -425,7 +543,7 @@ namespace Runtime.UI.Core
                     continue;
                 }
 
-                if (panel.DisplayMode != Enums.UIPanelDisplayMode.Overlay)
+                if (panel.DisplayMode != Enums.UIPanelDisplayMode.Overlay || panel is LoadingPanel)
                 {
                     continue;
                 }
@@ -485,6 +603,8 @@ namespace Runtime.UI.Core
             System.Collections.Generic.List<Transform> visibleOverlays =
                 new System.Collections.Generic.List<Transform>();
 
+            bool loadingPanelVisible = false;
+
             foreach (System.Collections.Generic.KeyValuePair<System.Type, IUIPanel> entry in panelRegistry)
             {
                 if (entry.Value is not UIPanel panel)
@@ -507,6 +627,11 @@ namespace Runtime.UI.Core
                     continue;
                 }
 
+                if (panel is LoadingPanel)
+                {
+                    loadingPanelVisible = true;
+                }
+
                 visibleOverlays.Add(panel.transform);
             }
 
@@ -516,8 +641,61 @@ namespace Runtime.UI.Core
                 return;
             }
 
-            overlayScrim.Show();
+            if (loadingPanelVisible &&
+                TryGetPanel(out LoadingPanel loadingPanel) &&
+                loadingPanel.UsesQuickTransitionMask)
+            {
+                overlayScrim.Hide();
+                return;
+            }
+
+            if (loadingPanelVisible && !HasOtherOverlayThanLoading(visibleOverlays) && !HasVisibleExclusivePanel())
+            {
+                overlayScrim.Hide();
+                return;
+            }
+
+            float showDuration = loadingPanelVisible ? 0.18f : 0.25f;
+            overlayScrim.Show(showDuration);
             overlayScrim.PlaceBelow(visibleOverlays.ToArray());
+        }
+
+        private static bool HasOtherOverlayThanLoading(
+            System.Collections.Generic.List<Transform> visibleOverlays)
+        {
+            for (int index = 0; index < visibleOverlays.Count; index++)
+            {
+                Transform overlay = visibleOverlays[index];
+                if (overlay != null && overlay.GetComponent<LoadingPanel>() == null)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool HasVisibleExclusivePanel()
+        {
+            foreach (System.Collections.Generic.KeyValuePair<System.Type, IUIPanel> entry in panelRegistry)
+            {
+                if (entry.Value is not UIPanel panel)
+                {
+                    continue;
+                }
+
+                if (panel.DisplayMode != Enums.UIPanelDisplayMode.Exclusive)
+                {
+                    continue;
+                }
+
+                if (IsPanelVisible(panel))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private void EnsureOverlayScrim()
@@ -543,7 +721,7 @@ namespace Runtime.UI.Core
                     continue;
                 }
 
-                if (panel.DisplayMode != Enums.UIPanelDisplayMode.Overlay)
+                if (panel.DisplayMode != Enums.UIPanelDisplayMode.Overlay || panel is LoadingPanel)
                 {
                     continue;
                 }
