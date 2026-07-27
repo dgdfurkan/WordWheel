@@ -68,7 +68,7 @@ namespace Runtime.UI.Panels
 
             DOVirtual.DelayedCall(0.15f, () =>
             {
-                UIManager.Instance.OpenPanel<LanguagePanel>();
+                UIManager.Instance.SwitchToPanel<GameplayPanel>();
             }).SetUpdate(true);
         }
 
